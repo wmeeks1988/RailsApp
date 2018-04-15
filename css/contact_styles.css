@@ -1,0 +1,77 @@
+* {box-sizing: border-box;}
+.container {
+  margin: 0 auto;
+  width: 80%;
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+.jumbotron {
+background-image: url(../img/jakeowens.jpg);
+background-size: cover;
+}
+
+.jumbotron {
+  color:silver;
+}
+
+.jumbotron p {
+  color: white;
+}
+
+.header h1,p{
+  text-align: center;
+  ;
+  margin-bottom: 40px;
+}
+.e-mail{
+  text-align: center;
+  padding: 30px;
+}
+.p{
+  text-align: center;
+  padding: 30px;
+}
+.phone{
+  text-align: center;
+  padding: 30px;
+}
+.Skype{
+  text-align: center;
+  padding: 30px;
+}
+
+.nav ul li {
+	  display: inline-block;
+  text-transform: uppercase;
+  float: right;
+  letter-spacing: 0.50em;
+  transition: color 600ms;
+  -webkit-transition: color 600ms;
+}
+.nav ul{
+  float: right;
+}
+.nav{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 20px 10px 20px;
+}
+
+body{
+  padding-top: 74px;
+}
+
+.nav a:hover{
+  color: #2615c5;
+   text-decoration: none;
+   padding: 20px;
+}
+
+.nav{
+    background-color: black;
+}
+
+.nav ul li a{
+  color: #fff;
+  padding: 20px;
+}
